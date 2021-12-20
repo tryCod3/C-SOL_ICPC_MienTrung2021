@@ -1,8 +1,8 @@
 ﻿# Hướng dẫn ICPC 2021 Miền Trung (Khuyến khích các bạn đọc đề và hiểu rõ chúng)
 
 ## Link
-[Đề trên google drive](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
-[Nơi submit](https://oj.vnoi.info/contest/icpc21_mt)
+*[Đề trên google drive](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
+*[Nơi submit](https://oj.vnoi.info/contest/icpc21_mt)
 
 ### Sol A
 
@@ -17,4 +17,4 @@ bạn có những hướng như sau :
 	* Không loại bỏ gì cả (TH3) 
 * Đáp số cuối cùng sẽ là:
 	* MAX(TH1 , TH2 , TH3)
-* [https://github.com/tryCod3/SOL_ICPC/Code/B.cpp](#Code AC)
+* [https://github.com/tryCod3/SOL_ICPC/Code/B.cpp] (#CodeAC)
