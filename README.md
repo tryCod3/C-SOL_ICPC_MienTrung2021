@@ -2,7 +2,7 @@
 
 
 ## Link
-[Click me](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W){:target="_blank" rel="noopener"}
+[Click me](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
 
 ### Sol A
 
