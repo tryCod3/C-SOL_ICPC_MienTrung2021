@@ -17,4 +17,4 @@ bạn có những hướng như sau :
 	* Không loại bỏ gì cả (TH3) 
 * Đáp số cuối cùng sẽ là:
 	* MAX(TH1 , TH2 , TH3)
-* [https://github.com/tryCod3/SOL_ICPC/blob/master/Code/B.cpp] (#CodeAC)
+* [CodeAC](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/B.cpp)
