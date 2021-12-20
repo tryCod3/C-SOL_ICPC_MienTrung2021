@@ -1,8 +1,8 @@
 ﻿# Hướng dẫn ICPC 2021 Miền Trung
 
 
-## link
-[https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W](#https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
+## Link
+[click me](#https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
 
 ### Sol A
 
