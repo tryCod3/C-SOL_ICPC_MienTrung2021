@@ -9,7 +9,7 @@
 ### Sol B 
 #### tag : implementation 
 * Đây là 1 bài dễ , bởi vì chỉ cần áp dụng if else bình thường cũng AC được nó
-* Bởi vì bài yêu cầu mod cho 1e9(tương đương 10^9) nên bạn có thể giải quyết nhanh bằng [C++](https://vi.wikipedia.org/wiki/C%2B%2B)
+* Bởi vì bài yêu cầu mod cho [1e9+7](https://www.google.com/search?q=1e9%2B7&oq=&aqs=chrome.1.69i57j6.3548j0j7&sourceid=chrome&ie=UTF-8) nên bạn có thể giải quyết nhanh bằng [C++](https://vi.wikipedia.org/wiki/C%2B%2B)
 * Để bạn rõ hơn , mình sẽ gợi ý như sau : để cho 1 mảng có giá trị tích là lớn nhất , thì
 bạn có những hướng như sau :
 	* Loại bỏ 1 số 0 (TH1)
