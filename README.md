@@ -2,8 +2,7 @@
 
 
 ## Link
-[click me](#https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
-
+[Click me](#https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W) - _Google | Youtube | Gmail | Maps | PlayStore | GoogleDrive_
 ### Sol A
 
 ### Sol B
