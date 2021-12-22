@@ -22,5 +22,5 @@ bạn có những hướng như sau :
 
 #### tag : PrefixSum , SegmentTree
 * Với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được
-	* <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg" width="100" height="100">
+	* <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg">
 * Đây là 1 bài mình dùng 2 thuật toán khác nhau để giải đó là PrefixSum và SegmentTree (lazy)
