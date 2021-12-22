@@ -25,8 +25,8 @@ bạn có những hướng như sau :
 	* sum(l , r) = ?
 * Quay lại với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg">
 nếu bạn code như này bạn sẽ bị TLE
-* Và nếu bạn thấy tag của bài G , đây là những thuật toán bạn sẽ cần dùng đến , chọn 1 trong 2 cách
-	* Với cách 1 (PrefixSum):
+* Để cải thiện tốc độ bạn hãy nhìn tag của bài G , đây là những thuật toán bạn sẽ cần dùng đến , chọn 1 trong 2 cách sau:
+	* Với cách 1 [PrefixSum](https://vnoi.info/wiki/algo/data-structures/prefix-sum-and-difference-array.md):
 		* Ý tưởng của thuật toán này sẽ tạo 1 mảng cộng dồn 
 			* Ta tạo 2 test: [L , R] = K
 				* với L = 2 , R = 3 , K= 10
@@ -41,5 +41,15 @@ nếu bạn code như này bạn sẽ bị TLE
 				* sau khi đánh dấu vị trí sau hết cả , tới lúc này hãy cộng chúng vào 
 	* [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/G.cpp)	
 	<br/>
-	* Với cách 2 SegmentTree with lazy:
-
+	* Với cách 2 [SegmentTree with lazy](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/):
+		* Như mình đã nói trên kia , với SegmentTree bạn có thể AC bài này 
+		* Nếu bạn không biết SegmentTreelà gì , hãy bắt đầu với 
+		[link](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/) này,
+		sau khi đọc xong , hãy tiếp tục với SegmentTree with lazy
+		* Ta duyệt cây và set chúng với những giá trị của đề bài cho: 
+			* ví dụ như với test
+				* với L = 2 , R = 3 , K= 10
+					* khi bạn duyệt cây , và bạn đã nằm trong phân đoạn [2 , 3] , hãy lấy node đó cộng với giá trị K
+			* Như bạn cũng thấy , có rất nhiều phân đoạn nằm trong test đề bài cho nên việc kết hợp với Lazy là điều cần thể để cải thiện tốc độ		
+		* Nếu bạn hiểu cách 1 , thì cách 2 này sẽ rất dễ dàng với các bạn
+	* [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/Gseg.cpp)	
