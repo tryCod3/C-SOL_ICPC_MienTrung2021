@@ -40,4 +40,6 @@ bạn có những hướng như sau :
 				* bạn hãy đánh dấu vị trí
 				* sau khi đánh dấu vị trí sau hết cả , tới lúc này hãy cộng chúng vào 
 	* [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/G.cpp)	
-		
+	<br/>
+	* Với cách 2 SegmentTree with lazy:
+
