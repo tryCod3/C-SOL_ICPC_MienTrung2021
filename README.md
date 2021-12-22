@@ -40,7 +40,7 @@ nếu bạn code như này bạn sẽ bị TLE
 				* bạn hãy đánh dấu vị trí
 				* sau khi đánh dấu vị trí sau hết cả , tới lúc này hãy cộng chúng vào 
 	* [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/G.cpp)	
-	<br/>
+	
 	* Với cách 2 [SegmentTree with lazy](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/):
 		* Như mình đã nói trên kia , với SegmentTree bạn có thể AC bài này 
 		* Nếu bạn không biết SegmentTreelà gì , hãy bắt đầu với 
