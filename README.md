@@ -26,7 +26,7 @@ bạn có những hướng như sau :
 	* tăng đoạn [l , r] lên k đơn vị
 	* sum(l , r) = ?
 * Quay lại với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/imgTLE_G.jpg">
-nếu bạn code như này bạn sẽ bị TLE
+nếu bạn code như này bạn sẽ bị [TLE](https://codelearn.io/sharing/time-limit-exceeded-trong-thuat-toan-va-cach-khac-phuc)
 * Để cải thiện tốc độ bạn hãy nhìn tag của bài G , đây là những thuật toán bạn sẽ cần dùng đến , chọn 1 trong 2 cách sau:
 	* Với cách 1 [PrefixSum](https://vnoi.info/wiki/algo/data-structures/prefix-sum-and-difference-array.md):
 		* Ý tưởng của thuật toán này sẽ tạo 1 mảng cộng dồn 
