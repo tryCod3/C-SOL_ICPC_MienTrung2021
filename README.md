@@ -4,7 +4,6 @@
 * [Đề trên google drive](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
 * [Nơi submit](https://oj.vnoi.info/contest/icpc21_mt)
 
-### Sol A
 
 ### Sol B 
 #### tag : implementation 
@@ -18,3 +17,10 @@ bạn có những hướng như sau :
 * Đáp số cuối cùng sẽ là:
 	* MAX(TH1 , TH2 , TH3)
 * [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/B.cpp)
+
+### Sol G
+
+#### tag : PrefixSum , SegmentTree
+* Với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được
+	* <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg" width="100" height="100">
+* Đây là 1 bài mình dùng 2 thuật toán khác nhau để giải đó là PrefixSum và SegmentTree (lazy)
