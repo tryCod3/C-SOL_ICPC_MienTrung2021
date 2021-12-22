@@ -26,7 +26,7 @@ bạn có những hướng như sau :
 	* sum(l , r) = ?
 * Quay lại với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được 
 <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg">
-	* nếu bạn code như này bạn sẽ bị TLE
+* nếu bạn code như này bạn sẽ bị TLE
 * Và nếu bạn thấy tag của bài G , đây là những thuật toán bạn sẽ cần dùng đến , chọn 1 trong 2 cách
 	* Với cách 1 (PrefixSum):
 		* Ý tưởng của thuật toán này sẽ tạo 1 mảng cộng dồn 
