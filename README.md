@@ -21,6 +21,25 @@ bạn có những hướng như sau :
 ### Sol G
 
 #### tag : PrefixSum , SegmentTree
-* Với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được
-	* <img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg">
-* Đây là 1 bài mình dùng 2 thuật toán khác nhau để giải đó là PrefixSum và SegmentTree (lazy)
+* Đây là dạng bài cổ điển trong những bài truy vấn phân đoạn
+	* tăng đoạn [l , r] lên k đơn vị
+	* sum(l , r) = ?
+* Quay lại với dữ liệu đề bài cho , ta thấy không thể duyệt trâu được 
+<img src="https://github.com/tryCod3/SOL_ICPC/blob/master/img/TLE_G.jpg">
+	* nếu bạn code như này bạn sẽ bị TLE
+* Và nếu bạn thấy tag của bài G , đây là những thuật toán bạn sẽ cần dùng đến , chọn 1 trong 2 cách
+	* Với cách 1 (PrefixSum):
+		* Ý tưởng của thuật toán này sẽ tạo 1 mảng cộng dồn 
+			* Ta tạo 2 test: [L , R] = K
+				* với L = 2 , R = 3 , K= 10
+					* prefixSum [0 , 10 , 10 , 0 , 0]
+				* với L = 1 , R = 5 , K= 2	
+					* prefixSum [2 , 12 , 12 , 2 , 2]
+		 * Bạn thấy mảng prefixSum chính là mảng từng phần tử trong string trong bài cộng vào
+		 * Mình biết khi đọc tới đây , bạn sẽ hỏi rằng vậy việc duyệt từ [l , r] rồi cộng K đơn vị
+		   thì khác gì cái ảnh TLE trên kia
+			* Nó khác đó , bạn sẽ dùng 1 trick , mình sẽ gợi ý như này : 
+				* bạn hãy đánh dấu vị trí
+				* sau khi đánh dấu vị trí sau hết cả , tới lúc này hãy cộng chúng vào 
+	* [Code AC bằng C++](https://github.com/tryCod3/SOL_ICPC/blob/master/Code/G.cpp)	
+		
