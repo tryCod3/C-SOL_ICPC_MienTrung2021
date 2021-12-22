@@ -1,5 +1,7 @@
 ﻿# Hướng dẫn ICPC 2021 Miền Trung (Khuyến khích các bạn đọc đề và hiểu rõ chúng)
 
+
+<h2>Chú ý</h2>
 ## Link
 * [Đề trên google drive](https://drive.google.com/drive/folders/1VNTlFeD6VBEb2JIwNzEntjIBU6_EBA9W)
 * [Nơi submit](https://oj.vnoi.info/contest/icpc21_mt)
