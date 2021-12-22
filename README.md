@@ -44,9 +44,8 @@ nếu bạn code như này bạn sẽ bị TLE
 	* Với cách 2 [SegmentTree with lazy](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/):
 		* Như mình đã nói trên kia , với SegmentTree bạn có thể AC bài này 
 		* Nếu bạn không biết SegmentTreelà gì , hãy bắt đầu với 
-		[link](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/) này,
-		sau khi đọc xong , hãy tiếp tục với SegmentTree with lazy
-		* Ta duyệt cây và set chúng với những giá trị của đề bài cho: 
+		[link](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/) này, sau khi đọc xong , hãy tiếp tục với SegmentTree with lazy
+		* Ta duyệt cây và đưa giá trị của bài cho vào node
 			* ví dụ như với test
 				* với L = 2 , R = 3 , K= 10
 					* khi bạn duyệt cây , và bạn đã nằm trong phân đoạn [2 , 3] , hãy lấy node đó cộng với giá trị K
